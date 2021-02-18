@@ -19,7 +19,7 @@
 
          /*verificando o tamanho de uma string  reduzida*/
 
-        //$_POST['zipcode'] conté o valor do parâmetro
+        //$_POST['zipcode'] contém o valor do parâmetro
         // "zipcode" enviado no formulário
         $zipcode = trim($_POST['zipcode']);
         //Agora $zipcode comtém esse valor, mas qualquer espaço inicial ou final foi removido
