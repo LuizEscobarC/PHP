@@ -31,7 +31,7 @@
 
         // esse outro código faz a mesma coisa
         if (strlen(trim($_POST['zipcode'])) != 5){
-            print 'please enter a zip zode that is 5 characters long.';
+            print 'please enter a zip code that is 5 characters long.';
         }
 
             /*Comparando strings com == */

@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    //alterando classes
         $row_styles = array('even','odd');
         $style_index = 0;
         $meal = array('breakfast' => 'Walnut',

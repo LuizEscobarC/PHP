@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    //alterandos as classes
         $row_styles = array('even', 'odd');
         $dinner = array(
             'Sweet',
