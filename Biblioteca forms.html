@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <form action= "contato.php" method="post" name="contato" id="contato" novalidate="novalidate" enctype="multipart/form-data" target="_blank" accept-charset= "utf-8" autocomplete="on">  </form>
+
+    <form id="contato">  
+      <fieldset name="pessoais" form="contato"> 
+         <legend>Dados pessoais</legend>  
+         <label for="nome">Nome:</label> 
+         <input  type="text" id="nome" name="nome" /> 
+      </fieldset>
+
+      <fieldset name="profissional" form="contato" disabled="disabled">  
+        <legend>Experiência profissional</legend>  
+        <label for="tecnica">Técnica</label> 
+        <input type="radio" name="area" id="tecnica" /> 
+        <label for="administrativa">Administrativa</label>  
+        <input type="radio" name="area" id="administrativa" /> 
+      </fieldset>  
+    </form>
+<form>
+<input type="hidden" name="codigo_dos_produto" value="034, 035"/>
+<p><label for="name">Nome </label><input type="text" id= "name" name="nome" maxlength="35"/></p>
+<p><label for="senha">Senha </label><input type="password" id="senha" name="senha" maxlength="8" required></p>
+<p><label for="noticias">Escolha </label><input type="checkbox" id="noticias" name="noticias" value="Artes"/></p>
+<p><label for="upload">Envie </label><input type="file" id="upload" name="upload"/></p>
+<p><label for="clicar">Clique </label><input type="image" id="clicar" name="enviar" src="imagens/botao.png" 
+alt="Botão enviar"/></p>
+<p><label for="tamanho">Escolha </label><input type="radio" id="tamanho" name="tamanho" value="pequeno"/></p>
+<p><label for="somar">Calcule </label><input type="button" id="somar" name="somar" value="Somar" /></p>
+<p><label for="limpar">Limpar </label><input type="reset" id="limpar" name="limpar" value="Limpar dados" /></p>
+<p><label for="enviar">Enviar </label><input type="submit" id="enviar" name="enviar" value="Enviar dados"/></p>
+</form> 
+<form>
+<p><label for="escolha_cor"> Cor : </label><input type="color" id="escolha_cor" name="escolha_cor" /></p>
+<p><label for="inicio"> Início : </label><input type="date"  id ="inicio" name="inicio" min="2011-01-01"/></p>
+<p><label for="palestra"> Palestra : </label><input type="datetime" id="palestra" name="palestra"/></p>
+<p><label for="concerto"> Concerto : </label><input type="datetime-local" id="concerto" name="concerto"/></p>
+<p><label for="seuemail"> Email : </label><input type="email" id="seuemail" name="seuemail" required/></p>
+<p><label for="ferias"> Férias: </label><input type="month" id="ferias" name="ferias"/></p>
+<p><label for="musicas"> Músicas : </label><input type="number" id="musicas" name="musicas" min="2" max="8"/></p>
+<p><label for="altitude"> Altitude : </label><input type="range" id="altitude" name="altitude" min="100" max="1000" step="100"/></p>
+<p><label for="busca"> Busca : </label><input type="search" id="busca" name="busca" placeholder="pesquisar..."/></p>
+<p><label for="telefone"> Telefone: </label><input type="tel" id="telefone" name="telefone"/></p>
+<p><label for="horario"> Horário : </label><input type="time" id="horario" name="horario"/></p>
+<p><label for="site"> Site : </label><input type="url" id="site" name="site"/></p>
+<p><label for="semana"> Semana : </label><input type="week" id="semana" name="semana"/><p>
+</form>
+  </body>
+</html>
