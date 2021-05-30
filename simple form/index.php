@@ -1,12 +1,14 @@
 <?php 
 //formulário separado por funções
-require 'functions.php';
+require 'simple form/functions.php';
 
 if ('POST' == $_SERVER['REQUEST_METHOD']){
-  if ( $erros = validate_form() ) {
+  // vai colocar cada array valor na sua variavel
+  list($erros, $input) = validate_form();
+  if ( $erros ) {
     show_form($erros);
   } else {
-    process_form();
+    process_form($input);
   }
 } else {
   show_form();
