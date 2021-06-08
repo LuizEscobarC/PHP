@@ -1,0 +1,10 @@
+SELECT SUM(Quantity)
+FROM OrderDetails;
+
+
+SELECT AVG(Price)
+FROM Products;
+
+SELECT COUNT(ProductID)
+FROM Products;
+

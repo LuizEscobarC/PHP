@@ -1,0 +1,4 @@
+Olá pessoal
+Nesta aula, os professores instalarão o SQL Server, além de DLLs para o PHP poder conectar com esse serviço de Banco de Dados
+Entretanto, essas DLLs variam de acordo com a versão de seu PHP. Baixe o arquivo .zip e escolha a pasta que for compatível com seu PHP :)
+Grande abraço
