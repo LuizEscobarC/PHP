@@ -21,7 +21,6 @@
     //$total == 8175133
     if(! array_key_exists($city_info[1], $state_totals)){
       $state_totals[$city_info[1]] = 0; 
-      //$state_totals['NY'] = 0;
     }
     $state_totals[$city_info[1]]+= $city_info[2];
     //$state_totals['NY'] = $state_totals['NY'] + 8175133 

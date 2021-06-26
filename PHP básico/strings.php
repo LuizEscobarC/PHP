@@ -44,7 +44,7 @@
                 print 'Welcome back, BR presidente';
             }
                 /*Formatando strings e numeros*/
-                
+
                 //preenchimento com zeros
 
                 $zip = '6520';

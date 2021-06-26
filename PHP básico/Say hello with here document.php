@@ -16,7 +16,7 @@
             //caso contrário exibe o formulário
         }else {
         //here document
-        print <<< _HTML_
+            print <<< _HTML_
             <form method="post" action="$_SERVER[PHP_SELF]">
             your name: <input type="text" name="user">
             <br>

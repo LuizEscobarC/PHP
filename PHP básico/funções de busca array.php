@@ -13,6 +13,7 @@
             'Dried' => 3.00,
             'Egg' =>6.50,
             'shrimp' => 0 );
+            
         if (array_key_exists('Cashew', $meals))
         {
             print "<br>key Exists";
