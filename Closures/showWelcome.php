@@ -3,7 +3,7 @@ $welcome = "Bem vindo";
 echo $firstName = "Luiz";
 echo "<br><br>";
 
-$showWelcome = function($lastName) use (&$firstName)
+$showWelcome = function($lastName) use (&$firstName) 
 {
     global $welcome;
     $firstName .= " {$lastName}";
