@@ -10,11 +10,13 @@ $showWelcome = function($lastName) use (&$firstName)
     return "{$welcome}, sr. {$firstName}";
 };
 
-echo $showWelcome("Escobar");
+echo $showWelcome("Escobar") . "<br><br>";
 
 var_dump([
+    "<pre>",
     $firstName,
-    $lastName,
+    // null por que é um parametro, se tirar null continua null pois não existe
+    $lastName = null, 
     $welcome,
-    $showWelcome
+    $showWelcome,
 ]);
