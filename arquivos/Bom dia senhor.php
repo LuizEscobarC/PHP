@@ -1,4 +1,6 @@
 <?php
+$file = __DIR__ . "/file.txt";
+
 if (file_exists($file) || is_file($file)) {
     $fileOpen = fopen($file, "w");
     for ($i = 1; $i < 5; $i++) {
